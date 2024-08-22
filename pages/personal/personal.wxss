@@ -1,5 +1,7 @@
 /* pages/personal/personal.wxss */
-
+/* page {
+  background-color: #efefef;
+} */
 
 
 /* 名片 */
@@ -25,6 +27,17 @@
 .head text {
   color: #ffffff;
 }
+
+/* 功能栏 */
+.block {
+  display: block;
+  margin-bottom: 32rpx;
+  margin-top: 10% ;
+}
+/* .small-image {
+  width: 10rpx;
+  height: 20px;
+} */
 
 /* 余额 */
 .money {

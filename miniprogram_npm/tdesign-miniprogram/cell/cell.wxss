@@ -33,7 +33,7 @@
   overflow: hidden;
   padding: var(--td-cell-vertical-padding, 32rpx) var(--td-cell-horizontal-padding, 32rpx);
   line-height: var(--td-cell-line-height, 48rpx);
-  height: var(--td-cell-height, auto);
+  height: var(--td-cell-height, 70px);
   background-color: var(--td-cell-bg-color, var(--td-bg-color-container, var(--td-font-white-1, #ffffff)));
 }
 .t-cell::after {
@@ -80,23 +80,25 @@
   display: flex;
   font-size: var(--td-cell-title-font-size, var(--td-font-size-m, 32rpx));
   color: var(--td-cell-title-color, var(--td-font-gray-1, rgba(0, 0, 0, 0.9)));
-  font-weight: 400;
+  font-weight: 500;
 }
 .t-cell__left,
 .t-cell__right {
   display: flex;
   align-items: center;
+  margin-right: var(--td-spacer, 10rpx);
 }
 .t-cell__left:not(:empty) {
-  margin-right: var(--td-spacer, 16rpx);
+  margin-right: var(--td-spacer, 36rpx);
+  margin-left: var(--td-spacer, 24rpx);
 }
 .t-cell__left-icon {
   color: var(--td-cell-left-icon-color, var(--td-brand-color, var(--td-primary-color-7, #0052d9)));
   font-size: var(--td-cell-left-icon-font-size, 48rpx);
 }
 .t-cell__left-image {
-  height: var(--td-cell-image-height, 96rpx);
-  width: var(--td-cell-image-width, 96rpx);
+  height: var(--td-cell-image-height, 56rpx);
+  width: var(--td-cell-image-width, 56rpx);
 }
 .t-cell__right {
   margin-left: calc(var(--td-spacer, 16rpx) / 2);

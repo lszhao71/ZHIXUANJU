@@ -14,7 +14,16 @@ Page({
     remainTime: 60 * 60, // 剩余时间，默认1小时即3600秒
     timer: null,
     h: "00",
-    m: "00"
+    m: "00",
+
+    animationList: [
+      {
+        title: '渐变加载效果',
+        value: 'gradient',
+        loading: true,
+      },
+      
+    ],
   },
 
   /**

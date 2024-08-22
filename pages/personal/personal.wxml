@@ -10,9 +10,9 @@
   <view class="head">
     <t-avatar class="avatar-example" image="{{userInfo.avatarUrl}}" size="large" />
     <view class="info">
-    <text>用户\n</text>
-    <text>id</text>
-  </view>
+      <text>用户\n</text>
+      <text>id</text>
+    </view>
   </view>
   <!-- 信息 -->
   
@@ -35,6 +35,28 @@
     <view><text>{{username}}</text></view>
     <text>{{id}}</text>
   </view> -->
+</view>
+
+<!-- 功能栏 -->
+<t-grid class="block" column="{{3}}">
+  <t-grid-item text="收藏" image="/images/func/collect.png" />
+  <t-grid-item text="浏览" image="/images/func/history.png" />
+  <t-grid-item text="预约" image="/images/func/order.png" />
+</t-grid>
+
+<!-- 单元格 -->
+<view>
+  <t-cell title="我的钱包" align="middle" hover arrow
+    image="/images/unit/wallet.png" />
+  <t-cell title="我的交易" align="middle" hover arrow
+    image="/images/unit/cash.png" />
+  <t-cell title="我的租约" align="middle" hover arrow
+    image="/images/unit/lease.png" />
+  <t-cell title="我的房子" align="middle" hover arrow
+    image="/images/unit/house.png" />
+  <t-cell title="我的订单" align="middle" hover arrow
+    image="/images/unit/ordered.png" />
+
 </view>
 
 <!-- 轮播图信息 -->

@@ -1,6 +1,9 @@
 {
   "usingComponents": {
-    "t-search": "tdesign-miniprogram/search/search"
+    "t-search": "tdesign-miniprogram/search/search",
+    "t-tabs": "tdesign-miniprogram/tabs/tabs",
+    "t-tab-panel": "tdesign-miniprogram/tab-panel/tab-panel",
+    "t-skeleton": "tdesign-miniprogram/skeleton/skeleton"
   },
   "navigationBarTitleText": "智选居",
   "enablePullDownRefresh": true,

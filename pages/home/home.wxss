@@ -14,6 +14,13 @@ page {
   border-radius: 26px;
 }
 
+/* 搜索框 */
+.example-search {
+  background-color: #fff;
+  padding: 16rpx 32rpx;
+  margin-top: 12rpx;
+  margin-bottom: 12rpx;
+}
 
 /* 菜单栏 */
 .title {

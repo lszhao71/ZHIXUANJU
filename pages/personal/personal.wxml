@@ -1,31 +1,44 @@
 <!--pages/personal/personal.wxml-->
+
+
+
 <!-- 个人信息简介 -->
 <view class="personal-info">
   <!-- 名片 -->
-  <image class="bk" src="/images/名片.png" mode="widthFix" />
+  <!-- <image class="bk" src="/images/名片.png" mode="widthFix" /> -->
   <!-- 头像 -->
-  <image class="head" src="/images/头像.png" mode="widthFix" />
+  <view class="head">
+    <t-avatar class="avatar-example" image="{{userInfo.avatarUrl}}" size="large" />
+    <view class="info">
+    <text>用户\n</text>
+    <text>id</text>
+  </view>
+  </view>
+  <!-- 信息 -->
+  
+  
+  <!-- <image class="head" src="/images/头像.png" mode="widthFix" /> -->
   <!-- 设置 -->
-  <image class="seticon" src="/images/设置.png" mode="widthFix" />
+  <!-- <image class="seticon" src="/images/设置.png" mode="widthFix" /> -->
   <!-- 余额信息 -->
-  <view class="money">
+  <!-- <view class="money">
     <view>账户余额</view>
     <view class="money-data">10.00</view>
-  </view>
+  </view> -->
   <!-- 信用度信息 -->
-  <view class="credit">
+  <!-- <view class="credit">
     <view>信用度</view>
     <view class="credit-data">100</view>
-  </view>
+  </view> -->
   <!-- 学生信息 -->
-  <view class="info">
+  <!-- <view class="info">
     <view><text>{{username}}</text></view>
     <text>{{id}}</text>
-  </view>
+  </view> -->
 </view>
 
 <!-- 轮播图信息 -->
-<view class="lunbo">
+<!-- <view class="lunbo">
   <swiper interval="2000" indicator-dots="true" autoplay="true" circular="true">
     <swiper-item>
       <image class="ima" src="/images/lunbo1.jpg"></image>
@@ -37,10 +50,10 @@
       <image class="ima" src="/images/lunbo3.jpg"></image>
     </swiper-item>
   </swiper>
-</view>
+</view> -->
 
 <!-- 功能栏 -->
-<view class="img-box">
+<!-- <view class="img-box">
   <navigator class="box-item" url="/pages/tmp/tmp?title={{name1}}">
     <image src='/images/icon/账户充值.png'></image>
     <text>账户充值</text>
@@ -68,4 +81,4 @@
     <image src='/images/icon/意见反馈.png'></image>
     <text>意见反馈</text>
   </navigator>
-</view>
+</view> -->

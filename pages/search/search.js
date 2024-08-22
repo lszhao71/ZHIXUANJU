@@ -1,21 +1,11 @@
-// pages/personal/personal.js
-const app = getApp();
+// pages/search/search.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name1: "账户充值",
-    name2: "充值记录",
-    name3: "订单查询",
-    name4: "邀请注册",
-    name5: "桩位收藏",
-    name6: "意见反馈",
-    username: getApp().globalData.username,
-    id: getApp().globalData.id,
-    // ZHI
-    userInfo: {}
+
   },
 
   /**
@@ -23,18 +13,6 @@ Page({
    */
   onLoad(options) {
 
-    this.setData({
-      username: getApp().globalData.username,
-      id: getApp().globalData.id
-    })
-
-
-    // ZHI
-    if (app.globalData.userInfo) {
-      this.setData({
-        userInfo: app.globalData.userInfo
-      });
-    }
   },
 
   /**

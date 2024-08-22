@@ -1,20 +1,34 @@
 /* pages/message/message.wxss */
-page {
+/* page {
   background-color: #efefef;
+} */
+
+/* 空页面图片 */
+.blank {
+  text-align: center;
+  margin-top: 30%;
+  /* width: 60%; */
+}
+
+.blank image {
+  text-align: center;
+  height : 500rpx;
+  width: 70%;
 }
 
 /* 空页面提示信息 */
 .no-message {
-  height: 100rpx;
+  height: 10rpx;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .no-message text {
-  font-family: "楷体";
-  font-weight: bolder;
-  font-size: 50rpx;
+  /* font-family: "楷体"; */
+  /* font-weight: bolder; */
+  font-size: 40rpx;
+  color: #7c7c7c;
 }
 
 /* 事件触发按钮 */

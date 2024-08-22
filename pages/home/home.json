@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "t-search": "tdesign-miniprogram/search/search"
+  },
   "navigationBarTitleText": "智选居",
   "enablePullDownRefresh": true,
   "backgroundColor": "#efefef",

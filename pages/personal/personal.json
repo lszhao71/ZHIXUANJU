@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "t-avatar": "tdesign-miniprogram/avatar/avatar"
+  },
   "navigationBarTitleText": "个人中心"
 }

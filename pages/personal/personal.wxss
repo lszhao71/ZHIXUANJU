@@ -1,17 +1,29 @@
 /* pages/personal/personal.wxss */
 
+
+
 /* 名片 */
 .bk {
   position: relative;
   margin-bottom: 20px;
+  
 }
 
 /* 头像 */
 .head {
-  width: 90px;
-  position: absolute;
-  left: 40px;
+  width: 100%;
+  position: relative;
   top: 20px;
+  background-color: #0052d9;
+  height: 250rpx;
+}
+.avatar-example {
+  /* position: absolute; */
+  margin-top: 8% ;
+  left: 80rpx ;
+}
+.head text {
+  color: #ffffff;
 }
 
 /* 余额 */

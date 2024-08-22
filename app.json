@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/home/home",
     "pages/message/message",
-    "pages/personal/personal"
+    "pages/personal/personal",
+    "pages/search/search"
   ],
   "window": {
     "navigationBarTextStyle": "black",

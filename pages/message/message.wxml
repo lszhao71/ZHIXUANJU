@@ -1,7 +1,13 @@
+<!-- 空页面图片 -->
+<view class="blank">
+  <image src="/images/blank.png"></image>
+</view>
+
+
 <!-- 空页面提示文字 -->
 <view wx:if="{{hidden}}">
   <view class="no-message" style="margin-top: 155rpx;">
-    <text>暂时没有消息通知~</text>
+    <text>暂时没有消息, 快去看房吧</text>
   </view>
   <view class="shijian">
     <!-- <button wx:if="{{hidden}}" type="warn" style="width:400rpx" bindtap='xianshi'>电源意外拔出</button> -->

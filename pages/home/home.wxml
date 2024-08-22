@@ -1,4 +1,10 @@
 <!--pages/home/home.wxml-->
+
+<!-- 搜索框 -->
+<view class="example-search">
+  <t-search model:value="{{value}}" placeholder="搜索房源" />
+</view>
+
 <!-- 图标 -->
 <image class="logo" src="/images/logo.png"></image>
 

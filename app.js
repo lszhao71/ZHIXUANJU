@@ -1,4 +1,6 @@
 // app.js
+const app = getApp();
+
 App({
   onLaunch() {
     // 展示本地存储能力

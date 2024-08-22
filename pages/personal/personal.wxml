@@ -1,0 +1,71 @@
+<!--pages/personal/personal.wxml-->
+<!-- 个人信息简介 -->
+<view class="personal-info">
+  <!-- 名片 -->
+  <image class="bk" src="/images/名片.png" mode="widthFix" />
+  <!-- 头像 -->
+  <image class="head" src="/images/头像.png" mode="widthFix" />
+  <!-- 设置 -->
+  <image class="seticon" src="/images/设置.png" mode="widthFix" />
+  <!-- 余额信息 -->
+  <view class="money">
+    <view>账户余额</view>
+    <view class="money-data">10.00</view>
+  </view>
+  <!-- 信用度信息 -->
+  <view class="credit">
+    <view>信用度</view>
+    <view class="credit-data">100</view>
+  </view>
+  <!-- 学生信息 -->
+  <view class="info">
+    <view><text>{{username}}</text></view>
+    <text>{{id}}</text>
+  </view>
+</view>
+
+<!-- 轮播图信息 -->
+<view class="lunbo">
+  <swiper interval="2000" indicator-dots="true" autoplay="true" circular="true">
+    <swiper-item>
+      <image class="ima" src="/images/lunbo1.jpg"></image>
+    </swiper-item>
+    <swiper-item class="cri">
+      <image class="ima" src="/images/lunbo2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="ima" src="/images/lunbo3.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 功能栏 -->
+<view class="img-box">
+  <navigator class="box-item" url="/pages/tmp/tmp?title={{name1}}">
+    <image src='/images/icon/账户充值.png'></image>
+    <text>账户充值</text>
+  </navigator>
+  <navigator class="box-item" url="/pages/tmp/tmp?title={{name2}}">
+    <image src='/images/icon/充值记录.png'></image>
+    <text>充值记录</text>
+  </navigator>
+  <navigator class="box-item" url="/pages/tmp/tmp?title={{name3}}">
+    <image src='/images/icon/订单查询.png'></image>
+    <text>订单查询</text>
+  </navigator>
+</view>
+
+<view class="img-box">
+  <navigator class="box-item" url="/pages/tmp/tmp?title={{name4}}">
+    <image src='/images/icon/邀请注册.png'></image>
+    <text>邀请注册</text>
+  </navigator>
+  <navigator class="box-item" url="/pages/tmp/tmp?title={{name5}}">
+    <image src='/images/icon/桩位收藏.png'></image>
+    <text>桩位收藏</text>
+  </navigator>
+  <navigator class="box-item" url="/pages/tmp/tmp?title={{name6}}">
+    <image src='/images/icon/意见反馈.png'></image>
+    <text>意见反馈</text>
+  </navigator>
+</view>

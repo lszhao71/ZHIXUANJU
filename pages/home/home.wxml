@@ -1,0 +1,71 @@
+<!--pages/home/home.wxml-->
+<!-- 图标 -->
+<image class="logo" src="/images/图标.jpg"></image>
+
+<!-- 快速导航 -->
+<view class="title">
+  <image src="/images/分页符.png"></image>
+  <text>功能速览</text>
+</view>
+<!-- 功能按钮 -->
+<view>
+  <view class="list-grid">
+    <!-- 扫码充电 -->
+    <view class="grid-item" bindtap="getScancode">
+      <image src="/images/icon/扫码充电.png"></image>
+      <text>扫码充电</text>
+    </view>
+    <!-- 找充电桩 -->
+    <navigator class="grid-item" url="/pages/tmp/tmp?title={{name1}}">
+      <image src="/images/icon/找充电桩.png"></image>
+      <text>找充电桩</text>
+    </navigator>
+    <!-- 个人账户 -->
+    <view class="grid-item" bindtap="bindAccount">
+      <image src="/images/icon/账户.png"></image>
+      <text>个人账户</text>
+    </view>
+  </view>
+</view>
+
+<!-- 充电状态 -->
+<view class="title">
+  <image class="title" src="/images/分页符.png"></image>
+  <text class="title-word">充电状态</text>
+</view>
+
+<view>
+  <view class="charged">
+    <!-- 提示文字 -->
+    <view class="title2">
+      <image src="/images/时间.png"></image>
+      <text>剩余充电时间</text>
+    </view>
+    <!-- 倒计时 -->
+    <view class="countdown">
+      <view class="item" style="width: 641rpx; height: 116rpx; display: flex; box-sizing: border-box">
+        <view class="txt-time">{{h}}</view>
+        <text class="units">h</text>
+        <view class="txt-time">{{m}}</view>
+        <text class="units">min</text>
+      </view>
+    </view>
+
+    <!-- 提示文字 -->
+    <view class="title2" style="width: 570rpx; height: 112rpx; display: flex; box-sizing: border-box">
+      <image src="/images/位置.png"></image>
+      <text>充电桩位置</text>
+    </view>
+    <!-- 位置信息 -->
+    <view class="location">
+      <view class="item" style="width: 641rpx; height: 112rpx; display: flex; box-sizing: border-box">
+        <view class="info">天赐庄本部</view>
+        <text class="num">{{loc1}}</text>
+        <view class="info">号桩</view>
+        <text class="num">{{loc2}}</text>
+        <view class="info">号充电位</view>
+      </view>
+    </view>
+  </view>
+  <text class="tip">您的爱车正在重新续航，请耐心等待~</text>
+</view>

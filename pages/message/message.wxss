@@ -4,14 +4,14 @@ page {
 }
 
 /* 空页面提示信息 */
-.text1 {
+.no-message {
   height: 100rpx;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.text1 text {
+.no-message text {
   font-family: "楷体";
   font-weight: bolder;
   font-size: 50rpx;

@@ -1,6 +1,6 @@
 <!--pages/home/home.wxml-->
 <!-- 图标 -->
-<image class="logo" src="/images/图标.jpg"></image>
+<image class="logo" src="/images/logo.png"></image>
 
 <!-- 快速导航 -->
 <view class="title">

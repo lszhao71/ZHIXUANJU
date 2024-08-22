@@ -6,11 +6,11 @@ page {
 
 /* 图标 */
 .logo {
-  margin-left: 10rpx;
+  margin-left: 20rpx;
   margin-right: 10rpx;
   margin-top: 10rpx;
-  width: 97%;
-  height: 250rpx;
+  width: 95%;
+  height: 260rpx;
   border-radius: 26px;
 }
 
@@ -58,7 +58,8 @@ page {
   border: 10rpx solid #efefef;
   box-sizing: border-box;
   background-color: rgb(253, 253, 253);
-  background: linear-gradient(to right, #e4f3ae, #c6ee99);
+  background: rgb(253, 253, 253);
+  /* linear-gradient(to right, #e4f3ae, #c6ee99) */
 }
 
 /* 功能按钮 */
@@ -94,7 +95,7 @@ page {
   margin-right: 5rpx;
   border: 10rpx solid #efefef;
   background-color: rgb(255, 255, 255);
-  background: linear-gradient(to right, #e4f3ae, #c6ee99);
+  background: rgb(253, 253, 253);
 }
 
 /* 提示标题 */

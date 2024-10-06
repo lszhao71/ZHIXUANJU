@@ -1,6 +1,5 @@
 // pages/home/home.js
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -15,6 +14,8 @@ Page({
     timer: null,
     h: "00",
     m: "00",
+    value: 0,
+    value1: 0,
 
     animationList: [
       {
@@ -24,6 +25,17 @@ Page({
       },
       
     ],
+  },
+
+
+
+  methods: {
+    onChange(e) {
+      this.setData({ value: e.detail.value });
+    },
+    onChange1(e) {
+      this.setData({ value1: e.detail.value });
+    },
   },
 
   /**

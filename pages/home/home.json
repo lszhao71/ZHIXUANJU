@@ -3,7 +3,11 @@
     "t-search": "tdesign-miniprogram/search/search",
     "t-tabs": "tdesign-miniprogram/tabs/tabs",
     "t-tab-panel": "tdesign-miniprogram/tab-panel/tab-panel",
-    "t-skeleton": "tdesign-miniprogram/skeleton/skeleton"
+    "t-skeleton": "tdesign-miniprogram/skeleton/skeleton",
+    "t-cell": "tdesign-miniprogram/cell/cell",
+    "t-cell_h": "tdesign-miniprogram/cell_house/cell",
+    "t-icon": "tdesign-miniprogram/icon/icon",
+    "t-switch": "tdesign-miniprogram/switch/switch"
   },
   "navigationBarTitleText": "智选居",
   "enablePullDownRefresh": true,

@@ -27,12 +27,21 @@ page {
   margin-bottom: 2rpx;
 }
 
-/* 信息 */
+/* 信息列表 */
+.housecard {
+  height: 200rpx; /* 直接设置固定高度 */
+}
+
+
+/* 信息加载 */
 .loadlist {
   margin-top: 30rpx;
   max-width: 95%;
   margin-left: 20rpx;
 }
+
+
+
 
 /* 菜单栏 */
 .title {

@@ -27,28 +27,25 @@
 </t-tabs>
 
 <!-- 信息 -->
+<view >
+  <t-cell_h
+  class = "housecard"
+  title="多行带图片"
+  description="一段很长很长的内容文字\n一段很长很长的内容文字\n一段很长很长的内容文字"
+  align="middle"
+  image="/images/househead.jpg"
+  hover
+  bordered="{{false}}"
+  />
 
-<view wx:for="{{animationList}}" wx:for-item="animationItem" wx:key="index"
+
+</view>
+
+
+<!-- 加载 -->
+<!-- <view wx:for="{{animationList}}" wx:for-item="animationItem" wx:key="index"
   class="loadlist">
   <view class="demo-section__content">
     <t-skeleton theme="paragraph" animation="{{animationItem.value}}" loading="{{animationItem.loading}}"></t-skeleton>
   </view>
-</view>
-<view wx:for="{{animationList}}" wx:for-item="animationItem" wx:key="index"
-  class="loadlist">
-  <view class="demo-section__content">
-    <t-skeleton theme="paragraph" animation="{{animationItem.value}}" loading="{{animationItem.loading}}"></t-skeleton>
-  </view>
-</view>
-<view wx:for="{{animationList}}" wx:for-item="animationItem" wx:key="index"
-  class="loadlist">
-  <view class="demo-section__content">
-    <t-skeleton theme="paragraph" animation="{{animationItem.value}}" loading="{{animationItem.loading}}"></t-skeleton>
-  </view>
-</view>
-<view wx:for="{{animationList}}" wx:for-item="animationItem" wx:key="index"
-  class="loadlist">
-  <view class="demo-section__content">
-    <t-skeleton theme="paragraph" animation="{{animationItem.value}}" loading="{{animationItem.loading}}"></t-skeleton>
-  </view>
-</view>
+</view> -->
